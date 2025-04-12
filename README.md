@@ -12,16 +12,20 @@
    git clone https://github
    cd app-vulnerable-nosql
 
-   o descargar directo desde el link del git https://github
+o descargar directo desde el link del git https://github
 
 2. **Instalar dependencias**
-npm install express mongodb ejs body-parser
+   ```bash
+   npm install express mongodb ejs body-parser
+
 
 3. **Iniciar la base de datos**
-node crear-usuario.js
+   ```bash
+    node crear-usuario.js
 
 4. **Ejecutar la aplicación**
-node app.js
+   ```bash
+    node app.js
 
 5. **Abrir en navegador**
 http://localhost:3000
