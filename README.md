@@ -39,6 +39,7 @@ http://localhost:3000
 ### Explotando la Vulnerabilidad
 
 Método normal que fallará:
+-----------------------------------------------------------------------------------
 
 Ingresa lo siguiente en los siguientes campos:
 
@@ -49,16 +50,18 @@ Contraseña: feroz
 Haz clcick en "Acceder"
 
 Esto unicamente probará que el login funciona y que nos manda error ya que no exitse tal usuario con contraseña
---------------------------------------------------------------------------------------------------------------
+
+
 
 Método de explotación:
+-----------------------------------------------------------------------------------
 
 En el campo usuario ingresar: {"$ne": null}
 
 En el campo contraseña ingresar: {"$ne": null}
 
 Haz clic en "Acceder" Y verás que habrás accedido como un usuario real de la base de datos
-------------------------------------------------------------------------------------------------------------------
+
 
 #### ¿Por qué funciona?
 
