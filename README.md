@@ -9,10 +9,10 @@
 ### Pasos para ejecutar:
 1. **Clonar el repositorio o descargarlo directo de github**
    ```bash
-   git clone https://github
+   git clone https://github.com/Danny27HA/noSQL_Injection
    cd app-vulnerable-nosql
 
-o descargar directo desde el link del git https://github
+o descargar directo desde el link del git https://github.com/Danny27HA/noSQL_Injection
 
 2. **Instalar dependencias**
    ```bash
@@ -31,25 +31,34 @@ o descargar directo desde el link del git https://github
 http://localhost:3000
 
 
-#### Explotando la Vulnerabilidad
 
-Método normal (fallará):
+
+
+### Explotando la Vulnerabilidad
+
+Método normal que fallará:
 
 Ingresa lo siguiente en los siguientes campos:
-Usuario: admin
-Contraseña: supersecret
 
+Usuario: puma
 
+Contraseña: feroz
 
-Método de explotación (bypass de login):
+Haz clcick en "Acceder"
+
+Esto unicamente probará que el login funciona y que nos manda error ya que no exitse tal usuario con contraseña
+--------------------------------------------------------------------------------------------------------------
+
+Método de explotación:
 
 En el campo usuario ingresar: {"$ne": null}
+
 En el campo contraseña ingresar: {"$ne": null}
 
 Haz clic en "Acceder" Y verás que habrás accedido como un usuario real de la base de datos
+------------------------------------------------------------------------------------------------------------------
 
-
-##### ¿Por qué funciona?
+#### ¿Por qué funciona?
 
 Cuando se envía {"$ne": null}, MongoDB interpreta:
 
