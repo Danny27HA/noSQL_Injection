@@ -23,7 +23,7 @@ o descargar directo desde el link del git https://github.com/Danny27HA/noSQL_Inj
    ```bash
     node crear-usuario.js
 
-         Esto lo tuve que hacer extra debido a que no habia usuarios en la base de datos y por ello el metodo para acceder que queria ocupar no funcionaba, sin embargo ya con el usuario que se ha agregado, no es necesario ejecutarlo, asi que pasa directo al paso 4
+Esto lo tuve que hacer extra debido a que no habia usuarios en la base de datos y por ello el metodo para acceder que queria ocupar no funcionaba, sin embargo ya con el usuario que se ha agregado, no es necesario ejecutarlo, asi que pasa directo al paso 4
 
 4. **Ejecutar la aplicación**
    ```bash
