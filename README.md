@@ -10,7 +10,7 @@
 1. **Clonar el repositorio o descargarlo directo de github**
    ```bash
    git clone https://github.com/Danny27HA/noSQL_Injection
-   cd app-vulnerable-nosql
+   cd noSQL_Injection
 
 o descargar directo desde el link del git https://github.com/Danny27HA/noSQL_Injection
 
